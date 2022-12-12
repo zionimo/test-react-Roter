@@ -6,6 +6,8 @@ const Product = () => {
   const change = (e) => {
     setInput(e.target.value);
   };
+
+  const [a, setA] = useState("");
   return (
     <div>
       <h3>값을 입력받아서 페이지를 이동합니다</h3>
